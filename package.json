@@ -58,6 +58,7 @@
     "npm": ">=5.7.1"
   },
   "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
     "build": "webpack --mode production",
     "develop": "webpack --mode development --watch",
     "changelog": "node ./scripts/changelog.js",
