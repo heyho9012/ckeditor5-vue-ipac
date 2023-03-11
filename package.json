@@ -1,6 +1,6 @@
 {
   "name": "@ckeditor/ckeditor5-vue-ipac",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "main": "dist/ckeditor.js",
   "description": "Official Vue.js 3+ component for CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
