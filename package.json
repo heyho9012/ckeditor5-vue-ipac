@@ -58,7 +58,6 @@
     "npm": ">=5.7.1"
   },
   "scripts": {
-    "postinstall": "node ./scripts/postinstall.js",
     "build": "webpack --mode production",
     "develop": "webpack --mode development --watch",
     "changelog": "node ./scripts/changelog.js",
@@ -66,8 +65,6 @@
     "release:publish": "node ./scripts/publish.js",
     "prerelease": "npm run build; if [ -n \"$(git status dist/ --porcelain)\" ]; then git add -u dist/ && git commit -m 'Internal: Build.'; fi",
     "release": "node ./scripts/release.js",
-    "test": "node ./scripts/test.js",
-    "coverage": "node ./scripts/test.js --coverage",
     "lint": "eslint --quiet \"**/*.js\""
   },
   "repository": {
