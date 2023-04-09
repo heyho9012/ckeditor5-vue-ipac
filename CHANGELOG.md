@@ -1,6 +1,11 @@
 Changelog
 =========
 
+## [4.0.5](https://github.com/ckeditor/ckeditor5-vue/compare/v4.0.4...v4.0.5) (2023-04-09)
+
+Internal changes only (updated dependencies, documentation, etc.).
+
+
 ## [4.0.4](https://github.com/ckeditor/ckeditor5-vue/compare/v4.0.3...v4.0.4) (2023-03-11)
 
 Internal changes only (updated dependencies, documentation, etc.).
